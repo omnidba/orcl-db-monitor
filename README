@@ -1,0 +1,14 @@
+README
+======
+This repository contains Python scripts to monitor database status.
+
+1. setuptools-0.6c11-py2.4.egg
+This file is used to install the "easy_install" utility for Python 2.4. Please refer to
+
+http://pypi.python.org/pypi/setuptools
+
+2. How to install RPyC?
+Run "easy_install rpyc" as root. Please refer to
+
+http://rpyc.sourceforge.net/install.html
+
