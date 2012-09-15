@@ -2,7 +2,7 @@
 #
 #
 #
-# jerry.wang@delphix.com
+# omnidba@gmail.com
 
 import os
 import os.path
