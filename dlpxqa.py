@@ -297,7 +297,7 @@ def get_dsource_orahome(section):
 
 def get_toolkit_path(section, appliance):
     user = re.match('(\w+)\\/', get_host_login(section)).group(1)
-    path = os.path.join('/home', user, get_host_name(appliance), 'delphix')
+    path = os.path.join('/home', user, get_host_name(appliance), 'oracle')
     return path
 
 def test():
