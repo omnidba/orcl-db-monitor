@@ -1,14 +1,36 @@
 README
 ======
-This repository contains Python scripts to monitor database status.
+This repository contains a Python project to monitor database status, which is called Database Monitor (DBM).
 
-1. setuptools-0.6c11-py2.4.egg
+1. config.ini
+Contains Registry Server's IP address.
+
+2. database.ini
+Contains a list of databases to be monitored.
+
+3. dbm_agent.py
+Database Monitor (DBM) agent (server) implementation.
+
+4. dbm_client.py
+Database Monitor (DBM) client implementation.
+
+5. dbm_connection.py
+Database Monitor (DBM) connection class implementation.
+
+6. dlpxqa.py
+Generic functions implementation.
+
+7. install_agent.py
+Database Monitor (DBM) agent installation script.
+
+8. setuptools-0.6c11-py2.4.egg
 This file is used to install the "easy_install" utility for Python 2.4. Please refer to
 
 http://pypi.python.org/pypi/setuptools
 
-2. How to install RPyC?
+FAQ
+1. How to install RPyC?
 Run "easy_install rpyc" as root. Please refer to
 
-http://rpyc.sourceforge.net/install.html
+http://rpyc.readthedocs.org/en/latest/install.html
 
